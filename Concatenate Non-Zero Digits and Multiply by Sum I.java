@@ -4,7 +4,7 @@ class Solution {
         while(n>0){
             int d=n%10;
             if(d>0){
-                x+=d*p;
+                x+=d*p; 
                 p*=10;
                 s+=d;
             }
