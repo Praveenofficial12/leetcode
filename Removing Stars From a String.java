@@ -7,7 +7,7 @@ class Solution {
             else {
                 arr[j]=arr[i]; 
                 j++;}
-        }
+        } 
         return new String(arr,0,j);
     }
 }
